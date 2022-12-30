@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  width: 323px;
+  height: 204px;
+  background: rgb(153, 210, 224);
+  border-radius: 4px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+ }
+  
+ .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .card .card-bank-name {
+  font-size: 27px;
+  font-weight: 800;
+  text-shadow: 2px 2px #297c90;
+ }
+  
+ .card .card-header .logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+ }
+
+ .card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+  
+ .card .card-content .card-validity {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 171px;
+ }
+  
+ .card .card-person-name {
+  font-weight: 700;
+  font-family: inherit;
+ }
+
+ .cards-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+ }
+
+ .form-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto ;
+ }
+
+.form-wrapper input{
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #a4bfc5;
+}
+button{
+  margin-bottom: 2rem;
+  background-color: #0d6efd;
+  color: #fff;
+  width: 100%;
+}
+
+.spn{
+  text-align: left;
+  color: red;
+}
+ 
